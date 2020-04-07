@@ -10,6 +10,7 @@ fork本地(防止失联): https://github.com/WyattIsaac/QuantumultX-Tutorial/blo
     Quantumult 使用 HTTP HEAD 方法对测试网址 server_check_url
     进行网页响应性测试（测试结果为通过该节点访问此网页获得 HTTP 响应所需要的时间），来确认节点的可用性。
 ···
+
 ;server_check_url=http://www.google.com/generate_204
 ;geo_location_checker=http://www.example.com/json/, https://www.example.com/script.js
 dns_exclusion_list=*.cmpassport.com, *.jegotrip.com.cn, *.icitymobile.mobi, id6.me
@@ -17,10 +18,12 @@ dns_exclusion_list=*.cmpassport.com, *.jegotrip.com.cn, *.icitymobile.mobi, id6.
 ;udp_whitelist=53, 123, 1900, 80-443
 ;excluded_routes= 192.168.0.0/16, 172.16.0.0/12, 100.64.0.0/10, 10.0.0.0/8
 ;icmp_auto_reply=true
+
 ···
 
 ### 第二部分 DNS
 ···
+
 server=223.5.5.5
 server=114.114.114.114
 server=119.29.29.29
@@ -32,6 +35,7 @@ server=8.8.8.8
 ;server=/example4.com/[2001:4860:4860::8888]:53
 ;address=/example5.com/192.168.16.18
 ;address=/example6.com/[2001:8d3:8d3:8d3:8d3:8d3:8d3:8d3]
+
 ···
 
 ### 第三部分 Policy
@@ -119,6 +123,7 @@ final, proxy
 
 ### 第九部分 rewrite_local
 ···
+
 [rewrite_local]
 ;^http://example\.com/resource1/1/ url reject
 ;^http://example\.com/resource1/2/ url reject-img
@@ -136,6 +141,7 @@ final, proxy
 ;^http://example\.com/resource8/ url script-response-header response-header.js
 ;^http://example\.com/resource9/ url script-request-header request-header.js
 ;^http://example\.com/resource10/ url script-request-body request-body.js
+
 ···
 
 ### 第九部分 task_local
