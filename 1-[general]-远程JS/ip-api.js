@@ -1,0 +1,1 @@
+{"status":"success","country":"香港","countryCode":"HK","region":"HCW","regionName":"Central and Western District","city":"Central","zip":"96521","lat":22.2909,"lon":114.15,"timezone":"Asia/Hong_Kong","isp":"Hong Kong Telecommunications (HKT) Limited Mass Internet","org":"Hong Kong Telecommunications (HKT) Limited","as":"AS4760 HKT Limited","query":"219.76.163.106"}
