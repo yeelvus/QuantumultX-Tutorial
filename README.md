@@ -5,10 +5,8 @@
 官方链接地址: https://github.com/crossutility/Quantumult-X/blob/master/sample.conf
 
 ### 第一部分 General
-    Quantumult 使用 HTTP HEAD 方法对测试网址 server_check_url
-    进行网页响应性测试（测试结果为通过该节点访问此网页获得 HTTP 响应所需要的时间），来确认节点的可用性。
-```
 
+```
 ;server_check_url=http://www.google.com/generate_204
 ;geo_location_checker=http://www.example.com/json/, https://www.example.com/script.js
 dns_exclusion_list=*.cmpassport.com, *.jegotrip.com.cn, *.icitymobile.mobi, id6.me
@@ -20,6 +18,7 @@ dns_exclusion_list=*.cmpassport.com, *.jegotrip.com.cn, *.icitymobile.mobi, id6.
 ```
 
 ### 第二部分 DNS
+
 ```
 server=223.5.5.5
 server=114.114.114.114
@@ -36,13 +35,16 @@ server=8.8.8.8
 ```
 
 ### 第三部分 Policy
+
 ```
 ;static=policy-name-1, Sample-A, Sample-B, Sample-C, img-url=http://example.com/icon.png
 ;available=policy-name-2, Sample-A, Sample-B, Sample-C
 ;round-robin=policy-name-3, Sample-A, Sample-B, Sample-C
 ;ssid=policy-name-4, Sample-A, Sample-B, LINK_22E171:Sample-B, LINK_22E172:Sample-C
 ```
+
 ### 第四部分 server_remote
+
 ```
 [server_remote]
 ;https://raw.githubusercontent.com/crossutility/Quantumult-X/master/server.txt, tag=Sample-01
@@ -50,18 +52,21 @@ server=8.8.8.8
 ```
 
 ### 第五部分 filter_remote
+
 ```
 [filter_remote]
 ;https://raw.githubusercontent.com/crossutility/Quantumult-X/master/filter.txt, tag=Sample, force-policy=your-policy-name, enabled=true
 ```
 
 ### 第六部分 rewrite_remote
+
 ```
 [rewrite_remote]
 ;https://raw.githubusercontent.com/crossutility/Quantumult-X/master/sample-import-rewrite.txt, tag=Sample, enabled=true
 ```
 
 ### 第七部分 server_local
+
 ```
 ;shadowsocks=example.com:80, method=chacha20, password=pwd, obfs=http, obfs-host=bing.com, obfs-uri=/resource/file, fast-open=false, udp-relay=false, server_check_url=http://www.apple.com/generate_204, tag=ss-01
 ;shadowsocks=example.com:80, method=chacha20, password=pwd, obfs=http, obfs-host=bing.com, obfs-uri=/resource/file, fast-open=false, udp-relay=false, tag=ss-02
@@ -102,6 +107,7 @@ server=8.8.8.8
 ```
 
 ### 第八部分 filter_local
+
 ```
 [filter_local]
 ;user-agent, ?abc*, proxy
@@ -118,6 +124,7 @@ final, proxy
 ```
 
 ### 第九部分 rewrite_local
+
 ```
 
 [rewrite_local]
@@ -141,12 +148,15 @@ final, proxy
 ```
 
 ### 第九部分 task_local
+
 ```
 [task_local]
 ;* * * * * sample-task.js
+
 ```
 
 ### 第十部分 MitM
+
 ```
 [mitm]
 ;passphrase =
@@ -154,6 +164,5 @@ final, proxy
 ;skip_validating_cert = false
 ;force_sni_domain_name = false
 ;hostname = *.example.com, *.sample.com
+
 ```
-
-
