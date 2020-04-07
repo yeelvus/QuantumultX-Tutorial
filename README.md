@@ -3,5 +3,6 @@
 
 # QuantumultX-官方配置文件
 fork本地-
-官方链接地址-
+
+官方链接地址- https://github.com/crossutility/Quantumult-X/blob/master/sample.conf
 
