@@ -100,7 +100,7 @@ IP-CIDR,223.87.182.102/32,AdBlock
 IP-CIDR,223.87.182.11/32,AdBlock
 IP-CIDR,223.87.182.52/32,AdBlock
 
-# > MGTV
+# > MGTV 芒果TV
 HOST-SUFFIX,ads-api.videojj.com,AdBlock
 HOST-SUFFIX,cdn.cmop.mgtv.com,AdBlock
 HOST-SUFFIX,click.hunantv.com,AdBlock
