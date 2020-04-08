@@ -7,8 +7,7 @@
 ## QuantumultX-官方配置文件
 官方链接地址: https://github.com/crossutility/Quantumult-X/blob/master/sample.conf
 
-
-![AaIIiC.png20200408](q8g7ozt3h.bkt.clouddn.com/uPic/AaIIiC.png%202020%2004%2008)
+![geo_location_checker1.JPEG20200408](q8g7ozt3h.bkt.clouddn.com/uPic/geo_location_checker1.JPEG%202020%2004%2008)
 
 ### 第一部分 General
 
