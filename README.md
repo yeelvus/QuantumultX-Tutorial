@@ -1,6 +1,6 @@
 ## QuantumultX-Tutorial
 
-    建筑学的纯小白,学习QuantumultX的经历与总结的QuantumultX的教程
+  建筑学的纯小白,学习QuantumultX的经历与总结的QuantumultX的教程
 
 - 教程地址 : https://github.com/WyattIsaac/QuantumultX-Tutorial/wiki
 
