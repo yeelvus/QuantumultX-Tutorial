@@ -5,6 +5,7 @@
 - 教程地址 : https://github.com/WyattIsaac/QuantumultX-Tutorial/wiki
 
 ## QuantumultX-官方配置文件
+<<<<<<< HEAD
 官方链接地址: https://github.com/crossutility/Quantumult-X/blob/master/sample.conf
 
 ![](https://tva1.sinaimg.cn/large/00831rSTgy1gdm6kjhtbrj30uz0u0tms.jpg)
@@ -171,3 +172,6 @@ final, proxy
 ;hostname = *.example.com, *.sample.com
 
 ```
+=======
+- 官方链接地址: https://github.com/crossutility/Quantumult-X/blob/master/sample.conf
+>>>>>>> bb15bc671cf4a6f9143f23e44af18e6ba8324430
