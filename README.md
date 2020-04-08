@@ -7,10 +7,10 @@
 ## QuantumultX-官方配置文件
 官方链接地址: https://github.com/crossutility/Quantumult-X/blob/master/sample.conf
 
-![2020040811XyzvTD](q8g7ozt3h.bkt.clouddn.com/uPic/%202020%2004%2008%2011XyzvTD.png)
+![](q8g7ozt3h.bkt.clouddn.com/uPic/%202020%2004%2008%2011XyzvTD.png)
 
 
-![0084YFq8gy1gdm6i4qa47j31l41jctms](https://ws1.sinaimg.cn/mw690/0084YFq8gy1gdm6i4qa47j31l41jctms.jpg)
+![](https://ws1.sinaimg.cn/mw690/0084YFq8gy1gdm6i4qa47j31l41jctms.jpg)
 
 ![](https://tva1.sinaimg.cn/large/00831rSTgy1gdm6kjhtbrj30uz0u0tms.jpg)
 
