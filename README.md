@@ -3,6 +3,7 @@
   持续更新中...
   
 - 教程地址🔗 ➡️: https://github.com/WyattIsaac/QuantumultX-Tutorial/wiki
+- 大佬整理的脚本库:https://github.com/nzw9314/QuantumultX
 
 ## QuantumultX-官方配置文件
 
